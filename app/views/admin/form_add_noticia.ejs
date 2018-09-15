@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Formulaio de cadastro de Noticia</title>
+		</head>
+	<body>
+
+		<h1>Adicionar noticia</h1>
+		<br>
+
+		<form action="/noticias/salvar" method="post">
+			<label>Titulo</label>
+			<input type="text" id="titulo" name="titulo" placeholder="Titulo Noticia">
+			<br>
+			<label>Noticia</label>
+			<textarea id="noticia" name="noticia" rows="5" cols="30"></textarea>
+			<br>
+			<input type="submit" name="enviar">
+		</form>
+	</body>
+</html> 
