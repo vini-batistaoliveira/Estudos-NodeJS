@@ -11,6 +11,6 @@ var connMysql = function () {
 }
 
 module.exports = function(){
-	console.log('Autoload carregou')
+	console.log('Autoload carregou');
 	return connMysql;
 }
